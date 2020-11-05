@@ -76,6 +76,9 @@ nmap -v -O --osscan-guess 192.168.1.1
 ```
 nmap -Pn --script vuln 192.168.1.1
 ```
+```
+nmap -sCV 192.168.1.1
+```
 
 # Additional info
 -sV : version detection; -PN : no ping ; -sS Stealth ; -sT 3Way OPEN?
