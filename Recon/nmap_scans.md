@@ -77,6 +77,16 @@ nmap -v -O --osscan-guess 192.168.1.1
 nmap -Pn --script vuln 192.168.1.1
 ```
 
+# Additional info
+-sV : version detection; -PN : no ping ; -sS Stealth ; -sT 3Way OPEN?
+-sA send ACKs-sU : UDP scan ; -sn host discovery only; no port scan
+-p#s: only scan port#s; –top-ports # : scan only # top ports
+-v : verbose output; -T 0-5 scan speed 0=slowest 5=fastest
+-oN | -oX | -oG <file>: output to file in Normal, XML or grepable.
+-n Do not DNS name resolution (faster)
+ndiff priorScan newScan : shows diff between 2 scans
+
+
 ## Reference
 https://www.cyberciti.biz/security/nmap-command-examples-tutorials/
 
