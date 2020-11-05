@@ -3,7 +3,7 @@
 # Initial Recon
 
 ## Initial Host Discovery using range of IP Addresses
-### .1-.20
+### .1-.24 excluding ip 192.168.1.0
 ```
 nmap 192.168.1.1-24 --exclude 192.168.1.0
 ```  
