@@ -4,8 +4,7 @@
 Binwalk  
 Binary Ninja  
 Ghidra  
-Beyong Compare  
-Pwntools  
+Beyond Compare  
 GEF  
 - https://gef.readthedocs.io/en/master/  
 Pwntools  
@@ -36,7 +35,6 @@ Wireshark
 ## Virtualization Software
 VMware Workstation  
 Oracle's VirtualBox  
-Microsoft Hyper-V  
 ------
 
 ## Setup
