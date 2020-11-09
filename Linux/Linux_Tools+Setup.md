@@ -25,10 +25,14 @@ Golang
 Python3  
   
 ### Fedora  
-sudo dnf groupinstall "Development Tools" "Development Libraries"  
+```shell
+sudo dnf groupinstall "Development Tools" "Development Libraries"
+```  
   
 ### Ubuntu  
-sudo apt install build-essential  
+```shell
+sudo apt install build-essential
+```  
   
 ------  
   
@@ -63,7 +67,7 @@ systemctl disable pcscd.socket
 systemctl disable pcscd.service
 ```  
 
-**Install Linux tools** 
+**Install Linux tools**  
  ```
  linux-tools-generic  
  linux-tools
