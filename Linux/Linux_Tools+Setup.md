@@ -10,7 +10,6 @@ GEF
   
 Pwntools  
 - https://github.com/Gallopsled/pwntools  
-  
 ------  
   
 ## Penetration Testing  
@@ -18,7 +17,6 @@ Pwntools
 Metasploit  
 Burp Suite  
 ZAP  
-  
 ------  
   
 ## Dev work  
