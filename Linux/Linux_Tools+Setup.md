@@ -1,6 +1,7 @@
 # Linux Tools + Setup  
   
 ## Reverse Engineering + Exploit Dev  
+
 Binwalk  
 Binary Ninja  
 Ghidra  
@@ -12,7 +13,8 @@ Pwntools
 - https://github.com/Gallopsled/pwntools  
 ------  
   
-## Penetration Testing\
+## Penetration Testing  
+
 Metasploit  
 Burp Suite  
 ZAP  
