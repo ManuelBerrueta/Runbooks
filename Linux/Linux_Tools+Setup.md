@@ -29,15 +29,18 @@ sudo dnf groupinstall "Development Tools" "Development Libraries"
   
 ### Ubuntu  
 sudo apt install build-essential  
+  
 ------  
   
 ## Other Essential Tools  
 Wireshark  
+  
 ------  
   
 ## Virtualization Software  
 VMware Workstation  
 Oracle's VirtualBox  
+  
 ------  
   
 ## Setup  
