@@ -25,7 +25,7 @@ Golang
 Python3  
   
 ### Fedora  
-```shell
+```bash
 sudo dnf groupinstall "Development Tools" "Development Libraries"
 ```  
   
