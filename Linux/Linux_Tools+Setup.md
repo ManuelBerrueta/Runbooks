@@ -48,7 +48,7 @@ Oracle's VirtualBox
 ------  
   
 ## Setup  
-**Add ll funcionality**  
+**Add ll funcionality**
 ```bash
 echo "alias ll='ls -al'" >> ~/.bashrc
 ```
@@ -59,7 +59,7 @@ echo "alias ll='ls -al'" >> ~/.bashrc
 - https://secanablog.wordpress.com/2018/10/24/enhanced-session-mode-under-fedora-28/  
 - https://github.com/secana/EnhancedSessionMode  
   
-**If neverending popup `Authentication is required to access the pc/sc daemon`**  
+**If neverending popup `Authentication is required to access the pc/sc daemon`:**
 ```shell
 systemctl stop pcscd.socket
 systemctl stop pcscd
@@ -67,7 +67,7 @@ systemctl disable pcscd.socket
 systemctl disable pcscd.service
 ```  
 
-**Install Linux tools**  
+**Install Linux tools**
  ```
  linux-tools-generic  
  linux-tools
