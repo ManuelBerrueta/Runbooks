@@ -1,0 +1,54 @@
+# Linux Tools List
+  
+## Reverse Engineering + Exploit Dev  
+Binwalk  
+Binary Ninja  
+Ghidra  
+Beyong Compare  
+Pwntools  
+GEF  
+- https://gef.readthedocs.io/en/master/  
+Pwntools  
+- https://github.com/Gallopsled/pwntools  
+------
+  
+## Penetration Testing
+Metasploit  
+Burp Suite  
+ZAP  
+------
+  
+## Dev work
+Golang  
+Python3  
+  
+### Fedora
+sudo dnf groupinstall "Development Tools" "Development Libraries"  
+  
+### Ubuntu
+sudo apt install build-essential  
+------
+
+## Other Essential Tools
+Wireshark  
+------
+
+## Virtualization Software
+VMware Workstation  
+Oracle's VirtualBox  
+Microsoft Hyper-V  
+------
+
+## Setup
+**Add ll funcionality**  
+```bash
+echo "alias ll='ls -al'" >> ~/.bashrc
+```
+  
+## VM Setup  
+### Hyper-V  
+**Install Linux tools** 
+ ```
+ linux-tools-generic  
+ linux-tools
+```
