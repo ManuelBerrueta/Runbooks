@@ -45,9 +45,18 @@ echo "alias ll='ls -al'" >> ~/.bashrc
   
 ## VM Setup  
 ### Hyper-V  
-**Fedora**
+#### Fedora
 - https://secanablog.wordpress.com/2018/10/24/enhanced-session-mode-under-fedora-28/
 - https://github.com/secana/EnhancedSessionMode
+
+**If neverending popup `Authentication is required to access the pc/sc daemon`**  
+```shell
+systemctl stop pcscd.socket
+systemctl stop pcscd
+systemctl disable pcscd.socket
+systemctl disable pcscd.service
+```
+
 
 **Install Linux tools** 
  ```
