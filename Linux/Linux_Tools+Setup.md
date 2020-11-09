@@ -45,6 +45,10 @@ echo "alias ll='ls -al'" >> ~/.bashrc
   
 ## VM Setup  
 ### Hyper-V  
+**Fedora**
+- https://secanablog.wordpress.com/2018/10/24/enhanced-session-mode-under-fedora-28/
+- https://github.com/secana/EnhancedSessionMode
+
 **Install Linux tools** 
  ```
  linux-tools-generic  
