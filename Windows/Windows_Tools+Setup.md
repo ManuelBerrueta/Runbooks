@@ -1,5 +1,5 @@
 # Windows Tools List
-**This is a tool list that I use in most of my machines
+**This is a tool list that I use in most of my machines  
   
 ## Reverse Engineering + Exploit Dev  
 Binwalk  
@@ -13,11 +13,13 @@ HxD
 FLOSS  
 PE Bear  
 Beyond Compare  
+
 ------
   
 ## Penetration Testing
 Burp Suite  
 ZAP  
+
 ------
   
 ## Dev work
@@ -26,7 +28,8 @@ Python3
 VSCode
 - Install extension list
 Visual Studio
-WSL2
+WSL2  
+
 ------
 
 ## Other Essential Tools
@@ -40,18 +43,27 @@ Steam
 VMware Workstation  
 Oracle's VirtualBox  
 Microsoft Hyper-V  
+
 ------
 
 ## Comms
 Discord  
 Slack  
 Teams  
+
 ------
   
 ## Setup
 **Map WSL2 Drive**  
 - In File Explorer type "\\wsl$"  
 - Right click on Ubuntu (or whatever distro) and select "Map network drive..."  
+  
+**WSL Issues**
+```powershell
+wsl --shutdown
+wsl
+```  
+
 ------
   
 ## VM Setup  
