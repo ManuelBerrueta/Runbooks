@@ -68,6 +68,14 @@ wsl
   
 ## VM Setup  
 ### Hyper-V  
-**Enhanced Session Issues**
-Setup a Windows Hello Pin, so then we can turn of Windows Hello. 
-After that, we should be able to use the  
+**Enhanced Session Issues**  
+Setup a Windows Hello Pin, so then we can turn of Windows Hello.  
+After that, we should be able to use the Enhanced Session  
+  
+**WSL + WSL2 Install**  
+Shutdown guest (VM)
+You must run the following command from the host OS in Admin PowerShell:
+```powershell
+Set-VMProcessor -VMName Win10VM -ExposeVirtualizationExtensions $true
+```
+Follow instructions here to install WSL2:  https://aka.ms/wsl2-install
