@@ -78,4 +78,7 @@ You must run the following command from the host OS in Admin PowerShell:
 ```powershell
 Set-VMProcessor -VMName Win10VM -ExposeVirtualizationExtensions $true
 ```
-Follow instructions here to install WSL2:  https://aka.ms/wsl2-install
+Follow instructions here to install WSL2:  https://aka.ms/wsl2-install  
+  
+Good reference for WSL2 installation and snapshots:  https://boxofcables.dev/trying-wsl2-on-hyper-v/  
+  
