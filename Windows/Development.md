@@ -1,7 +1,10 @@
 # C/C++  
 ## Install Visual Studio IDE or C++ Build Tools  
 - https://code.visualstudio.com/docs/cpp/config-msvc  
-  
+## Install GCC (Mingw)  
+This VS Codet config walks you through the setup  
+- https://code.visualstudio.com/docs/cpp/config-mingw  
+    
 ## Install vcpkg  
 - https://docs.microsoft.com/en-us/cpp/build/vcpkg?view=msvc-160  
 - https://github.com/Microsoft/vcpkg  
