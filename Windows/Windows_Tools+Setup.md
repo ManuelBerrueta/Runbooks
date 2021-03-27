@@ -86,6 +86,19 @@ Follow instructions here to install WSL2:  https://aka.ms/wsl2-install
   
 Good reference for WSL2 installation and snapshots:  https://boxofcables.dev/trying-wsl2-on-hyper-v/  
   
+**Bridged Switch**  
+In Hyper-V Manager select Virtual Switch Manager from the Actions side bar on the right side  
+From the "New virtual network switch" menu select "External" for the type and click "Create Virtual Switch"  
+Give it a name such "Bridge Switch"  
+Connection Type: "External network", and select your NIC  
+Click Apply and OK.  
+A popup saying "Pending changes may disrupt network connectivity", select yes.  
+Now the switch is ready to use and you can change that in the VM settings.  
+  
+- Reference: 
+-- https://www.how2shout.com/how-to/how-to-create-bridge-network-on-hyper-v-windows-10-step-by-step.html  
+-- https://www.nakivo.com/blog/hyper-v-network-adapters-what-why-and-how/  
+    
 
 ------  
   
