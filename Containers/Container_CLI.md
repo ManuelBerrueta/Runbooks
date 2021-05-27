@@ -11,6 +11,9 @@
 `ctr run docker.io/library/fedora:latest Fedora`
 
 # CRICTL
+**crictl Reference:** 
+ - https://kubernetes.io/docs/tasks/debug-application-cluster/crictl/
+ - https://github.com/containerd/cri/blob/master/docs/crictl.md
 
 # Containerd
 
@@ -18,6 +21,7 @@
 
 # kubectl
  `kubectl get nodes -o wide`
+ `kubectl get pods -A`
 
 **kubectl Reference:** 
  - https://kubernetes.io/docs/reference/kubectl/overview/
