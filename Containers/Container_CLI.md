@@ -17,6 +17,7 @@
 # Docker
 
 # kubectl
+ `kubectl get nodes -o wide`
 
 **kubectl Reference:** 
  - https://kubernetes.io/docs/reference/kubectl/overview/
