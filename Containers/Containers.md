@@ -11,3 +11,8 @@ Simply put, a container is nothing more than an isolated process that leverages 
 
 ## Container Terminology
 https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#system_containers
+
+# Kubernetes
+
+## Reference Material
+https://dev.to/aveuiller/kubernetes-apprentice-cookbook-4j6h
