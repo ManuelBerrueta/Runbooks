@@ -15,4 +15,4 @@ https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-in
 # Kubernetes
 
 ## Reference Material
-https://dev.to/aveuiller/kubernetes-apprentice-cookbook-4j6h
+https://dev.to/aveuiller/kubernetes-apprentice-cookbook-4j6hhy
