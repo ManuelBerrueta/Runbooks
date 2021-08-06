@@ -3,6 +3,13 @@
 sudo -s
 ```
 
+### Get Linux Version
+```
+lsb_release -a
+hostnamectl
+uname -r
+```
+
 ### Copy / Pasta Magic
 ```sh
 cat <fileOfInterest> | base64

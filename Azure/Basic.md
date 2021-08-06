@@ -64,3 +64,8 @@ Get-AzKeyVaultCertificateOperation -VaultName "<Your-keyvault>" -Name "<NameTheC
 ## Retrieve public key details from the certificate  
 ```Powershell
 Get-AzKeyVaultCertificate -VaultName "<Your-keyvault>" -Name "<NameOfCertificate>"
+```
+
+## KQL
+https://docs.microsoft.com/en-us/azure/data-explorer/kql-quick-reference
+https://techcommunity.microsoft.com/t5/azure-data-explorer/azure-data-explorer-kql-cheat-sheets/ba-p/1057404
