@@ -30,3 +30,8 @@ az ad sp create-for-rbac --name ServicePrincipalNam
 az account list
 az account tenant list
 ```
+
+## Using Queries
+
+**Reference:**
+- https://docs.microsoft.com/en-us/cli/azure/query-azure-cli

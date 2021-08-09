@@ -3,6 +3,12 @@
 sudo -s
 ```
 
+### Get dir size
+Use **d**isk **u**sage utility
+```sh
+du -sh /target/dir/path
+```
+
 ### Get Linux Version
 ```
 lsb_release -a
