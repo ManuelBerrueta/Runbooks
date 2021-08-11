@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: ConfigMap
+metadata:
+  name: script_runner_config
+  namespace: runner #!not sure about this yet
+data:
+  dothings.sh:
+    #!/bin/bash
+    apt-get install cowsay -y
+    cowsay "MOO"

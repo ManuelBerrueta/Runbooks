@@ -21,6 +21,15 @@ Get-AzResourceGroup
 
 # Secrets
 
+### Deleting secrets:
+```sh
+az keyvault secret list --vault-name myvault --query [].id | jq -r .[] | xargs -rtL1 az keyvault secret delete --id
+# wait a bit, or just enumerate deleted secrets to check if they are ready; maybe even just run: sleep 5s
+az keyvault secret list-deleted --vault-name myvault --query [].recoveryId | jq -r .[] | xargs -rtL1 az keyvault secret purge --id
+```
+**Source:**https://heaths.dev/tips/2020/07/30/azure-cli-in-bash.html
+
+
 ## Create secure str var
 ```Powershell
 [SecureString]$secretvalue = Read-Host -Prompt "Enter secret str" -AsSecureString
