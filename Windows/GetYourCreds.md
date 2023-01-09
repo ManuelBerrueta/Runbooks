@@ -1,0 +1,1 @@
+- Blog Post: [Credential theft without admin or touching LSASS with Kekeo by abusing CredSSP / TSPKG by Clément Notin](https://clement.notin.org/blog/2019/07/03/credential-theft-without-admin-or-touching-lsass-with-kekeo-by-abusing-credssp-tspkg-rdp-sso/)
