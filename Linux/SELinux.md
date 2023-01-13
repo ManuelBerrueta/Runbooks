@@ -74,4 +74,5 @@ Restart `auditd` after install: `service auditd restart`
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-selinux-on-centos-7-part-1-basic-concepts
 - https://www.tecmint.com/query-audit-logs-using-ausearch-tool-on-centos-rhel/
 - https://www.redhat.com/en/topics/linux/what-is-selinux
+- Malware disabling SELinux [Skidmap Malware Uses Rootkit to Hide Mining Payload](https://www.trendmicro.com/en_us/research/19/i/skidmap-linux-malware-uses-rootkit-capabilities-to-hide-cryptocurrency-mining-payload.html)
 - Good reference video from RH: [Security-Enhanced Linux for mere mortals](https://youtu.be/_WOKRaM-HI4)
